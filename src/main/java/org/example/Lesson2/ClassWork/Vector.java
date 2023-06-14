@@ -49,10 +49,33 @@ public class Vector {
                 x * vector2.y - y * vector2.x
         );
     }
+
     /**
      * @return косинус угла вектора
      */
     public double kosVector(Vector vector2) {
         return scalar(vector2) / (vectorLenght() * vector2.vectorLenght());
+    }
+
+    /**
+     * @return сумма векторов
+     */
+    public Vector vectorPlus(Vector vector2) {
+        return new Vector(
+                x + vector2.x,
+                y + vector2.y,
+                z + vector2.z
+        );
+    }
+
+    /**
+     * @return разница векторов
+     */
+    public Vector vectorMinus(Vector vector2) {
+        return new Vector(
+                x - vector2.x,
+                y - vector2.y,
+                z - vector2.z
+        );
     }
 }

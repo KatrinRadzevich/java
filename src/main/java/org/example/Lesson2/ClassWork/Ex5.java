@@ -8,6 +8,8 @@ public class Ex5 {
         System.out.println("vector.scalar(vector2) = " + vector.scalar(vector2));
         System.out.println("vector.vectorMulti(vector2) = " + vector.vectorMulti(vector2));
         System.out.println("vector.kosVector(vector2) = " + vector.kosVector(vector2));
+        System.out.println("vector.vectorPlus(vector2) = " + vector.vectorPlus(vector2));
+        System.out.println("vector.vectorMinus(vector2) = " + vector.vectorMinus(vector2));
         System.out.println(vector);
     }
 }
