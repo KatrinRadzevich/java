@@ -1,6 +1,6 @@
 package org.example.OOP.Lesson1.ClassWork.Ex1;
 
-public class Animal {
+public abstract class Animal {
     private String name;
 
     public Animal(String name) {
@@ -18,9 +18,8 @@ public class Animal {
         this.name = name;
     }
 
-    public void animalInfo() {
-        System.out.println("Животное по имени " + name);
-    }
+    public abstract void animalInfo();
+    public abstract void klubok();
 
     public void voice() {
         System.out.println("Животное по имени " + name + " мяукает");

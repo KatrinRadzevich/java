@@ -23,7 +23,9 @@ public class Cat extends Animal {
 
     @Override
     public void animalInfo() {
-        System.out.println("Кот: " + super.getName() + " с цветом шерсти: " + getColour() + " с количеством годиков: " + getAge());
+        System.out.println("Кот: " + super.getName() +
+                " с цветом шерсти: " + getColour() +
+                " с количеством годиков: " + getAge());
     }
 
     public String getColour() {
@@ -44,6 +46,13 @@ public class Cat extends Animal {
         } else {
             System.out.println("Возраст введен некорректно");
         }
+    }
+
+    @Override
+    public void klubok() {
+        System.out.println("кот " + super.getName() +
+                ", с возрастом " + age + ", с цветом шерсти " +
+                colour + " -- свернулся в клубок");
     }
 
     @Override
