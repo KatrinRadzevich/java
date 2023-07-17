@@ -38,7 +38,7 @@ public abstract class AbstractGame implements Game {
                 cow++;
             }
         }
-        if(sizeWord.equals(bull)) {
+        if (sizeWord.equals(bull)) {
             gameStatus = GameStatus.FINISH;
             System.out.println("вы победили!");
             return null;
