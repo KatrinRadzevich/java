@@ -8,14 +8,12 @@ public class Main {
         Calculator calculator = new Calculator();
         List<Double> doubleList = new ArrayList<>();
         List<Integer> integerList = new ArrayList<>();
-
-        for (int i = 1; i <= 5; i++) {
+        for (int i = 1; i <= 5; i ++) {
             doubleList.add((double) i);
             integerList.add(i);
         }
-
         List<String> stringList = new ArrayList<>();
-        for (int i = 1; i <= 5; i++) {
+        for (int i = 1; i <=5 ; i++) {
             stringList.add(String.valueOf(i));
         }
 
